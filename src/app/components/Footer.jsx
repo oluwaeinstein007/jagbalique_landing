@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Footer({ MapPinIcon }) {
+export default function Footer({ MapPinIcon, Phone, Linkedin, Youtube, Instagram, Twitter }) {
   // ... JSX for the Footer component (lines 585-603+)
   return (
     <footer className="bg-gray-900 text-white py-12">
@@ -13,7 +13,7 @@ export default function Footer({ MapPinIcon }) {
               </p>
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
-                  <MapPin className="w-5 h-5 text-purple-400 flex-shrink-0 mt-1" />
+                  <MapPinIcon className="w-5 h-5 text-purple-400 flex-shrink-0 mt-1" />
                   <div>
                     <p className="font-semibold mb-1">Office Address:</p>
                     <p className="text-gray-400 text-sm">

@@ -79,7 +79,7 @@ export default function Home() {
       
       <NewsPressReleasesSection />
       
-      <Footer MapPinIcon={MapPin} />
+      <Footer MapPinIcon={MapPin} Phone={Phone} Linkedin={Linkedin} Youtube={Youtube} Instagram={Instagram} Twitter={Twitter} />
     </div>
   );
 }

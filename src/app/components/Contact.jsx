@@ -70,13 +70,13 @@ export default function ContactEnquiriesSection({ formData, setFormData, handleS
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <div className="bg-gray-200 h-48 relative">
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <MapPin className="w-16 h-16 text-gray-400" />
+                  <MapPinIcon className="w-16 h-16 text-gray-400" />
                 </div>
               </div>
               <div className="p-6 space-y-4">
                 <div>
                   <div className="flex items-start gap-3 mb-2">
-                    <MapPin className="w-5 h-5 text-orange-500 mt-1" />
+                    <MapPinIcon className="w-5 h-5 text-orange-500 mt-1" />
                     <div>
                       <h4 className="font-bold text-gray-900">Office Address:</h4>
                       <p className="text-gray-600 text-sm">
@@ -89,7 +89,7 @@ export default function ContactEnquiriesSection({ formData, setFormData, handleS
 
                 <div>
                   <div className="flex items-start gap-3">
-                    <Clock className="w-5 h-5 text-orange-500 mt-1" />
+                    <ClockIcon className="w-5 h-5 text-orange-500 mt-1" />
                     <div>
                       <h4 className="font-bold text-gray-900">Open Hours:</h4>
                       <p className="text-gray-600 text-sm">Monday - Friday: 8:00 AM - 5:00 PM</p>
@@ -98,7 +98,7 @@ export default function ContactEnquiriesSection({ formData, setFormData, handleS
                 </div>
 
                 <button className="text-blue-600 hover:text-blue-700 font-semibold text-sm flex items-center gap-2">
-                  <MapPin className="w-4 h-4" />
+                  <MapPinIcon className="w-4 h-4" />
                   Get Directions
                 </button>
               </div>

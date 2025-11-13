@@ -18,7 +18,7 @@ export default function ServicesSection({ ArrowRightIcon, PackageIcon, FactoryIc
         {
           icon: <WrenchIcon className="w-6 h-6" />,
           title: 'Engineering & Technical Support',
-          description: 'Beyond supply, we deliver value through engineering design, equipment installation, commissioning, and maintenance support.',
+          description: 'Beyond supply, we deliver value through engineering design, equipment installation, commissioning, and maintenance support. Our experienced engineers ensure every solution meets operational standards and long term performance.',
           brochure: 'Engineering Brochure'
         },
         {
