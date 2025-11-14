@@ -36,7 +36,7 @@ export default function Home() {
     message: ''
   });
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     alert('Message sent! We will get back to you soon.');
     setFormData({ name: '', email: '', subject: 'General Inquiry', message: '' });
