@@ -1,27 +1,36 @@
 import React from 'react';
+import Image from 'next/image';
+import Engineers from '../images/Engineers.png';
+import AIConstruction from '../images/AIConstruction.png';
+import Factory from '../images/Factory.png';
+import RenewableEnergy from '../images/RenewableEnergy.png';
 
 export default function NewsPressReleasesSection({ }) {
     const newsArticles = [
         {
           title: 'Company expands supply chain across africa...',
+          image: Factory,
           excerpt: 'Jagbalique expands supply chain across africa. Jagbalique expands supply chain across africa...',
           date: 'Nov 11, 2025',
           category: 'Supply Chain'
         },
         {
           title: 'New Partnership Strengthens Logistic Operations.',
+          image: Engineers,
           excerpt: 'Jagbalique expands supply chain across africa. Jagbalique expands supply chain across africa...',
           date: 'Nov 11, 2025',
           category: 'Partnership'
         },
         {
           title: 'Company expands supply chain across africa...',
+          image: AIConstruction,
           excerpt: 'Jagbalique expands supply chain across africa. Jagbalique expands supply chain across africa...',
           date: 'Nov 11, 2025',
           category: 'Supply Chain'
         },
         {
           title: 'Company expands supply chain across africa...',
+          image: RenewableEnergy,
           excerpt: 'Jagbalique expands supply chain across africa. Jagbalique expands supply chain across africa...',
           date: 'Nov 11, 2025',
           category: 'Supply Chain'
@@ -38,7 +47,7 @@ export default function NewsPressReleasesSection({ }) {
             {newsArticles.map((article, idx) => (
               <div key={idx} className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition">
                 <div className="bg-gradient-to-br from-gray-700 to-gray-900 h-48 flex items-center justify-center">
-                  <div className="w-16 h-16 bg-gray-600 rounded"></div>
+                  <Image src={article.image} alt={article.title} className="w-100% h-100% text-white"/>
                 </div>
                 <div className="p-6">
                   <span className="inline-block bg-green-100 text-green-700 text-xs px-3 py-1 rounded-full mb-3">

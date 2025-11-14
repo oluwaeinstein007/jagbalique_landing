@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from 'next/image';
+import AfricaMap from '../images/AfricaMap.png';
 
 export default function WhoWeAreSection() {
     return (
@@ -42,8 +44,8 @@ export default function WhoWeAreSection() {
               </div>
             </div>
   
-            <div className="bg-gradient-to-br from-blue-900 to-slate-800 rounded-lg p-12 text-white relative overflow-hidden">
-              <div className="absolute inset-0 opacity-10">
+            <div className="bg-gradient-to-br from-blue-900 to-slate-800 rounded-lg p-0 text-white relative overflow-hidden">
+              {/* <div className="absolute inset-0 opacity-10">
                 <svg viewBox="0 0 300 500" className="w-full h-full">
                   <circle cx="150" cy="100" r="8" fill="currentColor"/>
                   <circle cx="200" cy="150" r="8" fill="currentColor"/>
@@ -70,7 +72,8 @@ export default function WhoWeAreSection() {
                 <p className="text-center text-sm text-gray-300">
                   Connecting industries across 15+ African countries with world-class engineering solutions
                 </p>
-              </div>
+              </div> */}
+              <Image src={AfricaMap} alt="Africa Map" className="w-full h-full object-contain"/>
             </div>
           </div>
         </div>

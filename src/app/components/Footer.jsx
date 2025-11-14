@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from 'next/image';
+import JagbaliqueLogo from '../images/JagbaliqueLogo.png';
 
 export default function Footer({ MapPinIcon, Phone, Linkedin, Youtube, Instagram, Twitter }) {
   // ... JSX for the Footer component (lines 585-603+)
@@ -7,7 +9,7 @@ export default function Footer({ MapPinIcon, Phone, Linkedin, Youtube, Instagram
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-3 gap-12 mb-8">
             <div>
-              <h3 className="text-2xl font-bold mb-4">JAGBALIQUE</h3>
+              <Image src={JagbaliqueLogo} alt="Jagbalique Logo" width={200} height={60} className="mb-4" />
               <p className="text-gray-400 text-sm mb-4">
                 Technical Sourcing | Procurement | Logistics | Engineering
               </p>

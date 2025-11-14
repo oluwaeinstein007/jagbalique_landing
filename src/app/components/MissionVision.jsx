@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from 'next/image';
+import Refinery from '../images/Refinery.png';
 
 export default function MissionVisionSection({ FactoryIcon }) {
 return (
@@ -11,7 +13,7 @@ return (
             <div className="relative">
               <div className="bg-gradient-to-br from-gray-400 to-gray-600 rounded-lg overflow-hidden h-96">
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <FactoryIcon className="w-32 h-32 text-white opacity-50" />
+                  <Image src={Refinery} alt="Refinery Image" className="w-100% h-100% text-white"/>
                 </div>
               </div>
             </div>

@@ -3,7 +3,7 @@ import React from 'react';
 export default function AfricanFootprintSection({ MapPinIcon }) {
   // ... JSX for the Footprint section component (lines 390-417)
   return (
-    <section id="projects-footprint" className="py-20 bg-white">
+    <section id="project-footprint" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-center mb-4 text-gray-900">Our Projects & African Footprint</h2>
         <p className="text-center text-gray-600 mb-16">Showcasing the impact of our work across Africa.</p>
