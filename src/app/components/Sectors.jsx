@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Receives sectors data and necessary icons as props
-export default function SectorsServeSection({ ArrowRightIcon, ZapIcon, DropletIcon, Building2Icon, SproutIcon, ServerIcon, HomeIcon }) {
+export default function SectorsServeSection({ ArrowRightIcon, ZapIcon, DropletIcon, Building2Icon, SproutIcon, ServerIcon, HomeIcon,HotelIcon }) {
     const sectors = [
         {
           icon: <ZapIcon className="w-8 h-8 text-yellow-500" />,
@@ -32,6 +32,11 @@ export default function SectorsServeSection({ ArrowRightIcon, ZapIcon, DropletIc
           icon: <HomeIcon className="w-8 h-8 text-orange-500" />,
           title: 'Engineering, Construction & Real Estate',
           description: 'Comprehensive solutions, project design and planning for construction projects with sourcing and technical expertise.'
+        },
+        {
+            icon: <HotelIcon className="w-6 h-6 text-purple-500" />,
+            title: 'Hospitality & Facility Management Services',
+            description: 'Providing sourcing and technical support for hotels, resorts, and hospitality infrastructure.'
         }
     ];
 

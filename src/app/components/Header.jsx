@@ -11,7 +11,7 @@ import JagbaliqueLogo from '../images/JagbaliqueLogo.png';
           <div className="max-w-7xl mx-auto flex justify-between items-center">
             <Image src={JagbaliqueLogo} alt="Jagbalique Logo" width={150} height={50} />
             <button 
-              className="lg:hidden"
+              className="lg:hidden text-black"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
               {mobileMenuOpen ? <XIcon /> : <MenuIcon />}

@@ -1,6 +1,5 @@
-import React from 'react';
 
-// Receives services data and necessary icons as props
+
 export default function ServicesSection({ ArrowRightIcon, PackageIcon, FactoryIcon, WrenchIcon, TruckIcon }) {
     const services = [
         {

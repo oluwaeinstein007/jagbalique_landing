@@ -4,7 +4,7 @@ import {
   Menu, X, ChevronDown, MapPin, Clock, Phone, 
   Linkedin, Youtube, Instagram, Twitter, ArrowRight,
   Zap, Package, Wrench, Truck, Factory, Leaf, 
-  Droplet, Building2, Sprout, Server, Home as HomeIcon // Alias to avoid naming conflict
+  Droplet, Building2, Sprout, Server, Home as HomeIcon, Hotel // Alias to avoid naming conflict
 } from 'lucide-react';
 // Import data structures for props
 // import { 
@@ -63,7 +63,7 @@ export default function Home() {
       
       <ServicesSection ArrowRightIcon={ArrowRight} PackageIcon={Package} FactoryIcon={Factory} WrenchIcon={Wrench} TruckIcon={Truck} />
       
-      <SectorsServeSection ArrowRightIcon={ArrowRight} ZapIcon={Zap} DropletIcon={Droplet} Building2Icon={Building2} SproutIcon={Sprout} ServerIcon={Server} HomeIcon={HomeIcon} />
+      <SectorsServeSection ArrowRightIcon={ArrowRight} ZapIcon={Zap} DropletIcon={Droplet} Building2Icon={Building2} SproutIcon={Sprout} ServerIcon={Server} HomeIcon={HomeIcon} HotelIcon={Hotel} />
       
       <PartnersSection />
       
