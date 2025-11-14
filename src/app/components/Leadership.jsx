@@ -4,7 +4,10 @@ export default function LeadershipHighlightSection({ }) {
   const team = [
     { name: 'John Philip', role: 'Managing Director' },
     { name: 'John Philip', role: 'Head of Operations' },
-    { name: 'John Philip', role: 'Head of Operations' }
+    { name: 'John Philip', role: 'Head of Operations' },
+    { name: 'John Adams', role: 'Chief Operatons Officer' },
+    { name: 'Sarah Johnson', role: 'Director of Engineering' },
+    { name: 'Emily Davis', role: 'Head of Procurement' },
   ];
 
   return (

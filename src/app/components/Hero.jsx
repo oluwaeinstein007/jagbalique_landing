@@ -6,7 +6,7 @@ export default function HeroSection() {
 return (
     <section className="relative bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white py-24 overflow-hidden">
         <div className="absolute inset-0 opacity-90">
-        <Image src={HeroImage} alt="Hero Image" className="w-100% h-100%"/>
+        <Image src={HeroImage} alt="Hero Image" className="w-full h-full"/>
           {/* <div className="absolute right-0 top-1/2 -translate-y-1/2 w-1/2 h-full">
           </div> */}
         </div>
