@@ -3,29 +3,29 @@
 export default function CompanyTimelineSection({ }) {
     const timeline = [
         {
-          year: '2010',
-          title: 'Our Foundation',
-          description: 'Jagbalique Industrial Company Ltd was established in Nigeria as an indigenous subsidiary of Barham Global Ltd (UK), with a focus on providing reliable maintenance goods and technical services to local manufacturers.'
+          year: '1980',
+          title: 'Foundation of Barham Global Ltd',
+          description: 'Barham Global Ltd was established in Kenya with a clear mission: to supply high-quality technical equipment to local manufacturers and industrial operators. From inception, the company built a reputation for reliability, innovation, and strong OEM partnerships.'
         },
         {
-          year: '2013',
-          title: 'Building Local Partnerships',
-          description: 'We began forming strategic alliances with international OEMs, enabling us to bring world-class engineering and project sourcing solutions to the Nigerian market.'
+          year: '2000',
+          title: 'Strategic Expansion to the United Kingdom',
+          description: 'To strengthen global sourcing capabilities and position itself closer to Original Equipment Manufacturers (OEMs), Barham Global expanded its operations to the United Kingdom. This move enhanced its ability to serve a broader African market with faster response times and improved supply-chain efficiency.'
         },
         {
-          year: '2016',
-          title: 'Regional Expansion',
-          description: 'Our consistent performance and trusted delivery led to expansion into other African markets, including Ghana, Kenya, South Sudan, and Tanzania, establishing Jagbalique as a continental partner in industrial sourcing.'
+          year: '2002',
+          title: 'Growth Across Africa',
+          description: 'Building on its strong foundation, Barham Global extended its sales operations to multiple African countries. This strategic expansion deepened the company’s continental footprint and cemented its role as a trusted partner for industrial and technical solutions across Africa.'
         },
         {
           year: '2020',
-          title: 'Strengthening Global Presence',
-          description: 'Jagbalique grew its OEM representation to over 20 international partners, broadening our product portfolio and technical service capacity across multiple sectors.'
+          title: 'Establishment of Jagbalique Industrial Company',
+          description: 'In line with its long-term growth strategy, Barham Global launched Jagbalique Industrial Company—a wholly owned indigenous entity—dedicated to serving the Nigerian market. Jagbalique quickly emerged as a key player in technical equipment supply, marine solutions, and industrial support services nationwide.'
         },
         {
-          year: '2025',
-          title: 'Pan-African Reach',
-          description: 'Today, we have delivered projects and supplied products to clients in 15 African countries, connecting industries across the continent with quality materials, technology, and engineering excellence.'
+          year: '2023',
+          title: 'Acquisition of A-Typify Ltd',
+          description: 'To further consolidate its Nigerian operations and strengthen its public-sector capabilities, Jagbalique Industrial Company acquired A-Typify Ltd. This acquisition expanded the Group’s mandate to include a full public-sector engagement arm, enabling the company to deliver high-impact solutions to federal and state institutions.'
         }
       ];
 

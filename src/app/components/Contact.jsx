@@ -70,7 +70,7 @@ export default function ContactEnquiriesSection({ formData, setFormData, handleS
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <div className="bg-gray-200 h-60 relative">
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.270915028041!2d3.354418149629586!3d6.487337306902339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8c7355c0656d%3A0x84fb36805c6b1a5a!2s12%20Olajumoke%20Obasa%20Cl%2C%20Alaka%2C%20Lagos%20101241%2C%20Lagos!5e0!3m2!1sen!2sng!4v1763158844490!5m2!1sen!2sng" loading="lazy" className="w-16 h-16 text-gray-400 b-0 h-60 w-600 "  ></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.685310658972!2d3.4242582709788905!3d6.434451948379842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf5d3f09720cf%3A0x1e34829b53a04621!2sKeystone%20Bank!5e0!3m2!1sen!2sng!4v1764116746907!5m2!1sen!2sng" loading="lazy" className="w-16 h-16 text-gray-400 b-0 h-60 w-600 "  ></iframe>
                 </div>
               </div>
               <div className="p-6 space-y-4">
@@ -80,7 +80,7 @@ export default function ContactEnquiriesSection({ formData, setFormData, handleS
                     <div>
                       <h4 className="font-bold text-gray-900">Office Address:</h4>
                       <p className="text-gray-600 text-sm">
-                        12 Obasa Odelusi Street, Victoria Island, Lagos<br />
+                      5th floor, Kingscourt building, keystone bank crescent, beside keystone bank HQ, Victoria Island<br />
                         Lagos State, Federal Republic Of Nigeria
                       </p>
                     </div>

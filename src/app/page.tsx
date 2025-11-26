@@ -57,7 +57,7 @@ export default function Home() {
       
       <MissionVisionSection FactoryIcon={Factory} />
       
-      <LeadershipHighlightSection />
+      {/* <LeadershipHighlightSection /> */}
       
       <CompanyTimelineSection />
       
