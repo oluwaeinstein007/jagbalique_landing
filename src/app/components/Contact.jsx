@@ -11,7 +11,7 @@ export default function ContactEnquiriesSection({ formData, setFormData, handleS
 
           <div className="grid lg:grid-cols-2 gap-12">
           <form 
-            action="https://formsubmit.co/slanre26@gmail.com" 
+            action="https://formsubmit.co/accounts@jagbalique.com" 
             method="POST"
             className="space-y-6"
           >
